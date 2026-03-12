@@ -7,3 +7,5 @@ if (numbers.Length == 0)
     Console.WriteLine("Error: No numbers provided.");
     return;
 }
+
+Console.WriteLine("another commit");
