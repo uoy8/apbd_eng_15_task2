@@ -6,5 +6,9 @@ public class StatisticHelper
     {
         return values.Average();
     }
+    public static int CalculateMin(int[] values)
+    {
+        
+    }
 }
 
