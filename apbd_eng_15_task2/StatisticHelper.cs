@@ -2,5 +2,9 @@
 
 public class StatisticHelper
 {
-    
+    public static double CalculateAverage(int[] values)
+    {
+        return values.Average();
+    }
 }
+
