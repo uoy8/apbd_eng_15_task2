@@ -4,6 +4,8 @@ int[] numbers = input.Split(' ').Select(int.Parse).ToArray();
 
 if (numbers.Length == 0)
 {
-    Console.WriteLine("Error: No numbers provided.");
+    Console.WriteLine("Error: " +
+                      "No numbers provided" +
+                      ".");
     return;
 }
